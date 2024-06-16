@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/Captura de tela 2024-05-30 203248.png" type="image/png">
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <title>The Gentlemen's Cut Barbearia ✂️</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="img">
+      <img src="./img/Captura de tela 2024-05-30 203248.png" class="imagem-logo" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a onclick="marcarhorario()" class="marcarhora">Marcar Horario</a></li>|
+        <li><a href="#Preços">Preços</a></li>|
+        <li><a href="#Clientes">Clientes</a></li>|
+        <li><a href="#location">Localização</a></li>|
+        <li><a href="#RedesSociais">Redes Sociais</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-blockw-100" src="./img/Archtrends Portobello - Barbearia Masculina.jpeg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-blockw-100" src="./img/download (1).jpeg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-blockw-100"
+          src="./img/Men Are Posting Pics Of Their Homes Asking How To Make The Space Cozier And Here Are 50 Of The Best.jpeg"
+          alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <article>
+    <img src="./img/imagens-de-barbeiro-png-3.png">
+    <div class="h1p">
+      <h1>
+        The Gentlemen's Cut Barbearia ✂️
+      </h1>
+      <p>
+        Bem-vindo à The Gentlemen's Cut Barbearia, onde a arte de aparar, moldar e estilizar é levada a sério. Aqui,
+        cada corte é uma expressão de precisão e habilidade, executado por nossos mestres barbeiros apaixonados pelo
+        ofício. Utilizamos apenas os melhores produtos e técnicas de última geração para garantir resultados impecáveis,
+        desde cortes clássicos até tendências contemporâneas. Na The Gentlemen's Cut Barbearia, a excelência é o nosso
+        compromisso, e estamos dedicados a proporcionar uma experiência única de cuidados masculinos em um ambiente
+        acolhedor e relaxante. Venha nos visitar e descubra o que é ter um corte de cabelo verdadeiramente excepcional.
+      </p>
+    </div>
+  </article>
+  <section>
+    <h1 id="Preços"> Preços E Serviços </h1>
+    <ul class="grid-container">
+      <li class="card">
+        <img class="card-img-top" src="./img/Corte Adulto.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>$45,00</span>
+          <p class="card-text">Corte Adulto</p>
+          <p class="card-text-p">Tenha sua aparência mais limpa e chame mais atenção com um magnífico corte de cabelo.
+            Sua beleza garantida com um preço justo!</p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card-img-top" src="./img/Corte Infantil.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>R$35,00</span>
+          <p class="card-text">Corte Infantil</p>
+          <p class="card-text-p">Os pequenos também merecem estilo! Venha para nossa barbearia e dê ao seu filho um
+            corte de cabelo único e cheio de charme. Afinal, grandes estilos começam desde cedo!</p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card-img-top" src="./img/Barba.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>R$30,00</span>
+          <p class="card-text">Barba</p>
+          <p class="card-text-p">Para os homens que valorizam a arte de serem bem cuidados, nossa barbearia oferece o
+            serviço de barba que vai transformar seu visual. Deixe-nos esculpir sua barba com maestria e saia com um
+            look digno de um cavalheiro.</p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card-img-top" src="./img/Sobrancelha.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>R$5,00</span>
+          <p class="card-text">Sobrancelha</p>
+          <p class="card-text-p">Na nossa barbearia, não deixamos nenhum detalhe passar despercebido. Dê destaque ao seu
+            olhar com nossos serviços de design de sobrancelha. Moldamos cada pelo com precisão para que sua expressão
+            seja sempre marcante e confiante.</p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card-img-top" src="./img/Nevou.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>R$100,00</span>
+          <p class="card-text">Nevou + Corte</p>
+          <p class="card-text-p">Quer uma aparência de tirar o fôlego, independentemente da estação? Experimente nosso
+            serviço exclusivo Nevou + Corte! Deixe a neve cair lá fora enquanto você sai daqui com um visual gelado de
+            tão incrível.</p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card-img-top" src="./img/Progressiva.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <span>$150,00</span>
+          <p class="card-text">Progressiva</p>
+          <p class="card-text-p">Desperte o poder da transformação com nosso serviço de progressiva. Diga adeus ao frizz
+            e olá para cabelos lisos e sedosos! Descubra uma nova maneira de expressar sua beleza com nossa progressiva
+            de alta qualidade. Deixe-nos cuidar dos seus cabelos enquanto você se prepara para brilhar como nunca antes.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="Localização">
+  <section class="location" id="location">
+    <h1>
+      Nossa Localização
+    </h1>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9289570593896!2d-46.58220719084123!3d-23.535057478729563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5edc7597af15%3A0x39abc2ff1117bf42!2sBarbearia%20Hera!5e0!3m2!1spt-BR!2sbr!4v1717542656152!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</div>
+  <div id="container">
+    <h1 style="margin-top: 10rem;">
+      Por que Escolher Nós?
+    </h1>
+    <div class="accordion">
+      <button class="accordion-header">
+        <span>
+          Experiência de Luxo e Conforto
+        </span>
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </button>
+      <div class="accordion-body">
+        <p>Na The Gentlemen's Cut Barbearia, oferecemos uma experiência de luxo e conforto. Desde o momento em que você
+          entra, será recebido com um ambiente acolhedor e sofisticado, projetado para fazer você se sentir relaxado e
+          especial. Nossos assentos confortáveis, música ambiente e atenção aos detalhes garantem que cada visita seja
+          uma pausa revigorante no seu dia.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <button class="accordion-header">
+        <span>
+          Profissionais Qualificados e Experientes
+        </span>
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </button>
+      <div class="accordion-body">
+        <p>Nossa equipe é composta por barbeiros altamente qualificados e experientes, dedicados a proporcionar cortes
+          de cabelo e barbas impecáveis. Cada membro do nosso time passa por treinamentos contínuos para se manter
+          atualizado com as últimas tendências e técnicas. Você pode confiar que receberá um serviço de alta qualidade,
+          personalizado para atender suas preferências e estilo.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <button class="accordion-header">
+        <span>
+          Produtos de Alta Qualidade
+        </span>
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </button>
+      <div class="accordion-body">
+        <p>Utilizamos apenas produtos de alta qualidade para cuidar do seu cabelo e barba. Desde shampoos e
+          condicionadores premium até óleos e pomadas de primeira linha, garantimos que seus fios recebam o melhor
+          tratamento possível. Isso não só melhora a aparência imediata, mas também promove a saúde e o bem-estar do seu
+          cabelo e pele a longo prazo.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <button class="accordion-header">
+        <span>
+          Atendimento Personalizado
+        </span>
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </button>
+      <div class="accordion-body">
+        <p>Na The Gentlemen's Cut Barbearia, valorizamos cada cliente e nos esforçamos para oferecer um atendimento
+          personalizado. Antes de começar qualquer serviço, nossos barbeiros consultam você para entender suas
+          necessidades e desejos específicos. Quer você esteja buscando um corte clássico ou um estilo mais moderno,
+          trabalhamos juntos para garantir que você saia satisfeito e com a aparência que deseja.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="review" id="Clientes">
+    <h2 class="title" style="margin-top: 10rem;">Nossos <span>Clientes</span></h2>
+    <div class="box-container">
+      <div class="box">
+        <img src="/img/quote-img.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea ipsa debitis, non consequuntur saepe
+          aliquid quo magnam, expedita maiores illo harum dicta libero autem itaque similique corrupti facere veritatis!
+        </p>
+        <img src="./img/pic-1.png" class="user">
+        <h3 class="names-clientes">João Da Silva</h3>
+        <div class="stars">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png"
+            alt="star--v1" /><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png"
+            alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/star-half-empty.png"
+            alt="star-half-empty" />
+        </div>
+      </div>
+      <div class="box">
+        <img src="/img/quote-img.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea ipsa debitis, non consequuntur saepe
+          aliquid quo magnam, expedita maiores illo harum dicta libero autem itaque similique corrupti facere veritatis!
+        </p>
+        <img src="./img/pic-2.png" class="user">
+        <h3>Maria Da Silva</h3>
+        <div class="stars">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/star-half-empty.png"
+            alt="star-half-empty" />
+        </div>
+      </div>
+      <div class="box">
+        <img src="/img/quote-img.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea ipsa debitis, non consequuntur saepe
+          aliquid quo magnam, expedita maiores illo harum dicta libero autem itaque similique corrupti facere veritatis!
+        </p>
+        <img src="./img/pic-3.png" class="user">
+        <h3>Diogo Da Silva</h3>
+        <div class="stars">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="star--v1" />
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/star-half-empty.png"
+            alt="star-half-empty" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="redes" id="RedesSociais">
+    <h1>
+      Redes Sociais
+    </h1>
+    <div class="linksrede">
+      <a href="https://github.com/DiogoAlves3" target="_blank"><img width="60" height="60"
+          src="https://img.icons8.com/sf-black-filled/64/github.png" alt="github" /></a>
+      <a href="https://www.instagram.com/diogoalveessz/" target="_blank"><img width="50" height="50"
+          src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="instagram-new" />
+      </a>
+      <a href="https://www.linkedin.com/in/diogo-alves-1a1638307/" target="_blank"><img width="50" height="50"
+          src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin" /></a>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="./img/Captura de tela 2024-05-30 203248.png" alt="Logo da The Gentlemen's Cut Barbearia">
+      </div>
+      <div class="footer-info">
+        <h3>The Gentlemen's Cut Barbearia ✂️</h3>
+        <p>Endereço: Rua Exemplo, 123, Centro, Cidade, Estado</p>
+        <p>Horário de Funcionamento: Segunda a Sexta, das 9h às 19h</p>
+        <p>Sábado, das 9h às 17h</p>
+        <h3>Contato</h3>
+      </div>
+      <div class="footer-contact">
+        <form action="https://formcarry.com/s/A4B7Qa-4r0e"
+        method="POST"
+        enctype="multipart/form-data">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+          <label for="phone">Telefone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<script src="./script.js"></script>
+</html>
